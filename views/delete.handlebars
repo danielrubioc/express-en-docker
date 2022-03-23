@@ -1,0 +1,21 @@
+<div class="container m-6">
+    <div class="columns">
+        <div class="column">
+            <h1>Eliminando tarea</h1>
+            <div class="card mt-6">
+                <div class="card-content">
+                    <div class="content">
+                        Estas apunto de eliminar la tarea "{{todo.title}}"
+                        <form id="formulario">
+                            <input id="id" type="hidden" value="{{todo.id}}" />
+                            <button type="submit" class="button is-danger">
+                                Eliminar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/delete.js"></script>
